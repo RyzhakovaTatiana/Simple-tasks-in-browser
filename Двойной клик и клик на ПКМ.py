@@ -26,6 +26,7 @@ action.double_click(double).perform()
 right_click = driver.find_element(By.XPATH, '//button[@id="rightClickBtn"]')
 action.context_click(right_click).perform()
 
+print('OK')
 
 time.sleep(3)
 driver.close()
